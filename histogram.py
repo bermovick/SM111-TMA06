@@ -36,7 +36,7 @@ pyplot.hist(all_data, bins=np.arange(7.4, 8.9, .1), color=colors, label=all_head
 pyplot.legend(loc="upper right")
 pyplot.xticks(np.arange(7.4, 8.9, .1))
 pyplot.xlabel("Measurement /cm")
-pyplot.yticks(range(1,9))
+pyplot.yticks(range(0,7))
 pyplot.ylabel("Frequency")
 pyplot.title("Graph 1:  Left middle finger length measurements", fontweight="bold")
 pyplot.show()

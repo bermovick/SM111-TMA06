@@ -2,7 +2,6 @@ from openpyxl import load_workbook
 import numpy as np
 from matplotlib import pyplot
 from matplotlib import colors
-from matplotlib.ticker import PercentFormatter
 
 # Load workbook and sheet
 wb = load_workbook(filename="Finger_Length_Data.xlsx", data_only=True)
